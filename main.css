@@ -1,0 +1,128 @@
+body {
+    font-family: sans-serif;
+}
+
+ul#nav {
+     float: right;
+    margin-right: 25px;
+    margin-top: -5px;
+}
+ 
+ul#nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 1em 10px 0 0;
+    margin: 5px 5px 0 0;
+    text-align: right;
+    vertical-align: top;
+    font-size: 13px;
+}   
+
+#nav a:link {
+    color: #000000;
+    text-decoration: none;
+}
+#nav a:visited {
+    color: #000000;
+}
+#nav a:hover {
+    color: #ff0000;
+}
+.img-circle {
+    border-radius: 50%;
+
+}
+
+span#share {
+background-color: #f5f5f5;
+cursor: default;
+padding: 5px 15px;
+color: blue;
+}
+span#share:hover {
+    background-color: #98fb98;
+}
+div#search {
+    margin-top: 80px;
+    position: absolute;
+    width: 100%;
+}
+div#search img {
+    display: block;
+    padding: 90px 0px 24px 0px;
+    margin: 0 auto;
+}
+
+input.search_buttons {
+    border: 1px solid #d9d9d9;
+    font-size: 17px;
+    margin-left: 30%;
+    width: 40%;
+}
+input.search_buttons:focus {
+    border-color: #4387fd;
+}
+
+ul.buttons {
+    padding-left: 0;
+    text-align: center;
+}
+
+ul.buttons li{
+    background-color: #f5f5f5;
+    border: 1px solid rgba (0, 0, 0, 0.1);
+    border-radius: 2px;
+    color: #666;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 27px;
+    margin: 17px 6px;
+    padding: 0 12px;
+}
+ul.buttons li:hover {
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba (0, 0, 0, 0.1);
+    color: #333;
+    cursor: default;
+}
+div#bottom {
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+ul#left {
+    float: left;
+    margin-bottom: 0;
+    padding-left: 20px;
+
+}
+ul#right {
+    float: right;
+    margin-bottom: 0;
+    padding-right: 10px;
+}
+ul#left li, ul#right li{
+    display: inline;
+    line-height: 40px;
+    list-style: outside none none;
+}
+ul#right li a:first-child {
+    padding-right: 8px;
+}
+ul#left li:nth-child(2), ul#left li:nth-child(3) {
+    margin-left: 7px;
+}
+ul#left li a, ul#right li a {
+    color: #666;
+    font-size: 13px;
+    letter-spacing: 0.1px;
+    margin: 2px 10px 0;
+    text-decoration: none;
+}
+
+
+
